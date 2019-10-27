@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+    <xsl:output method="xml" indent="yes"/>
+    <xsl:template match="countries">
+        <trip>
+            <xsl:apply-templates select="planet"/>
+        </trip>
+    </xsl:template>
+    <xsl:template match="country">
+        <destination>
+            <flyTo>
+                <xsl:value-of select="country_name"/>, <xsl:value-of select="capital"/><xsl:text/>
+            </flyTo>
+            <count_of_citizens>
+                <xsl:value-of select="menshen"/>
+            </count_of_citizens>
+        </destination>
+    </xsl:template>
+</xsl:stylesheet>

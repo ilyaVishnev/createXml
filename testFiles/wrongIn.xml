@@ -1,0 +1,12 @@
+<countries>
+    <country>
+        <place>Russia</place>
+        <capital>Moskau</capital>
+        <population>144</population>
+    </country>
+    <country>
+        <country_name>Germany</country_name>
+        <capital>Berlin</capital>
+        <population>60</population>
+    </country>
+</countries>

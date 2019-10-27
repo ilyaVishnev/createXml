@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><trip>
+<destination>
+<flyTo>Russia, Moskau</flyTo>
+<count_of_citizens>144</count_of_citizens>
+</destination>
+<destination>
+<flyTo>Germany, Berlin</flyTo>
+<count_of_citizens>60</count_of_citizens>
+</destination>
+</trip>
